@@ -1,1 +1,1 @@
-web: gunicorn weboard.wsgi 
+web: gunicorn weBoard.wsgi 
