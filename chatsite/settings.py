@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = (os.environ.get('DEBUG') == 'True')
 DEBUG = True
 
-ALLOWED_HOSTS = ['mohitboard.herokuapp.com']
+# ALLOWED_HOSTS = ['mohitboard.herokuapp.com']
 
 
 # Application definition
