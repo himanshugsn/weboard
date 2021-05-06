@@ -1,0 +1,105 @@
+html,body{
+    height: 100%;
+}
+
+.my-container {
+    min-height: 100%;
+}
+
+.main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+footer {
+    position: relative;
+    margin-top: -100px;
+    height: 100px;
+    background-color:rgba(0, 0, 0, .8);
+    color: white;
+    clear: both;
+}
+
+footer .social {
+    text-align: center;
+    padding-top:1%;
+}
+
+footer .social a {
+    color: white;
+    font-size: 140%;
+}
+
+.footer-menu a {
+    display: inline-block;
+    padding-right: 40px;
+    font-size: 110%;
+    text-decoration: none;
+    color: white !important;
+    margin-top: 7px;
+
+}
+.copyright {
+    font-size: 90%;
+    margin-top: 6px;
+}
+
+@media (min-width: 1281px) {
+    footer {
+       height: 130px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {    
+    footer {
+        height: 140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    footer {
+        height: 150px;
+    }
+}
+@media only screen and (max-width:600px){
+    .footer-menu {
+        display: flex;
+        font-size: 80%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .footer-menu {
+        display: flex;
+        font-size: 80%;
+        justify-content: center;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .footer-menu {
+        font-size: 20%;
+    }
+    .footer-menu a {
+        font-size: 420%;
+    }
+    footer .social a {
+        font-size: 90%;
+    }
+}
+
+@media only screen 
+and (max-width : 767px) {
+    .footer-menu {
+        font-size: 20%;
+    }
+    .footer-menu a {
+        font-size: 260%;
+    }
+    footer .social a {
+        font-size: 90%;
+    }
+}

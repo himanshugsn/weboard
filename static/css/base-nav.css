@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Lato','Arial',sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+}
+
+.custom-nav {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+.navbar-nav > li > a {padding-top:4px !important; padding-bottom:5px !important;height: 25px;}
+.navbar {min-height:32px !important}
+
+.icon-ion{
+    position: relative;
+    top: 10px;
+}
+
+#userMenu {
+    margin-bottom: 20px;
+}

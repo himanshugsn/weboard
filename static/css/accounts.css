@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/signupBackground.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo {
+    font-family: 'Lato','Arial',sans-serif;
+  }
+  
+  .logo a {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .logo a:hover,
+  .logo a:active {
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width:1200px){
+    body{width: 100%;}
+}
+
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+        width: 100%;
+      }
+}
