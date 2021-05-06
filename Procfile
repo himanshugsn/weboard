@@ -1,1 +1,1 @@
-web: gunicorn chatsite.wsgi
+web: gunicorn weboard.wsgi 
